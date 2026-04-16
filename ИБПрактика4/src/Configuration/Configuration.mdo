@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67dfdd3a-fd2e-4498-aaa0-9e419b549376">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="44fad6cc-0688-4923-ae98-a251cf26d809"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="95861f2e-278e-4f7a-8a67-dd139714b85e"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="6450cc6d-7756-498e-aef3-16436ae5ad28"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="2b81a692-6bbf-4ee2-9193-4013aa414e52"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="902f46c8-a22e-473f-b1d2-b68e6efe38ba"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="f1051fe4-d2b3-4cd0-9918-0691fab9d74e"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="6498b928-779a-4c20-9d7a-937926f1151c"/>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
+  <languages uuid="9219a1bc-7458-4c16-9f80-f45e28c21b50">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Закупки</subsystems>
+  <subsystems>Subsystem.Продажа</subsystems>
+  <subsystems>Subsystem.СправочнаяИнформация</subsystems>
+  <catalogs>Catalog.КофеИНапитки</catalogs>
+  <catalogs>Catalog.ЗаведенияСети</catalogs>
+  <catalogs>Catalog.РаботникиКафе</catalogs>
+  <catalogs>Catalog.Поставщики</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <documents>Document.ПродажаНапитка</documents>
+  <documents>Document.ЗакупкаИнгредиентов</documents>
+  <enums>Enum.ТипыОплатыТруда</enums>
+  <enums>Enum.МетодыОплаты</enums>
+  <reports>Report.Продажи</reports>
+  <reports>Report.ЗакупкаИнгредиентов</reports>
+  <accumulationRegisters>AccumulationRegister.ПродажиКофеен</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.КатегорииНоменклатуры</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ТипыТорговыхТочек</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДолжностиСотрудников</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ГрафикРаботы</chartsOfCharacteristicTypes>
+</mdclass:Configuration>
