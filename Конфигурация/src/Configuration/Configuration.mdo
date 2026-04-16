@@ -39,4 +39,21 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.ЗаведенияСети</catalogs>
+  <catalogs>Catalog.КофеИНапитки</catalogs>
+  <catalogs>Catalog.Поставщики</catalogs>
+  <catalogs>Catalog.РаботникиКафе</catalogs>
+  <documents>Document.ЗакупкаИнгредиентов</documents>
+  <documents>Document.ПродажаНапитка</documents>
+  <enums>Enum.МетодыОплаты</enums>
+  <enums>Enum.ТипыОплатыТруда</enums>
+  <reports>Report.ЗакупкаИнгредиентов</reports>
+  <reports>Report.Продажи</reports>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ПродажиКофеен</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ГрафикРаботы</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДолжностиСотрудников</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.КатегорииНоменклатуры</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ТипыТорговыхТочек</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

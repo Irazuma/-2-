@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a14a4f4-5d4d-4be2-ab0d-0da66a5d9e18">
+  <producedTypes>
+    <selectionType typeId="51234f76-0fd8-4ca4-a07f-939f73021f5f" valueTypeId="2af53f86-c10a-4d69-9342-fb63350f6fdc"/>
+    <listType typeId="ae39dce5-2085-4e39-8412-c993de422121" valueTypeId="64dc3cf8-32f0-4dbc-a321-1a34edff57b4"/>
+    <managerType typeId="2fa98dbc-955b-44eb-b0e2-eed1f0a4e417" valueTypeId="43876f13-d77c-4ca7-a846-e80a75ef3441"/>
+    <recordSetType typeId="574ca71f-8f88-4e84-bc3e-8ffd7bc9db30" valueTypeId="160aa22e-5d5c-4965-91d0-3cb4d0c2e144"/>
+    <recordKeyType typeId="0f30067d-7fde-4124-bec3-067f33449b29" valueTypeId="7e581de9-fd44-4625-925c-703edc9248c7"/>
+    <recordType typeId="750f60a4-3138-41b3-9804-9fd5276c8421" valueTypeId="8c461796-2bcb-4fd2-b55e-7937761ad848"/>
+  </producedTypes>
+  <name>ПродажиКофеен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи кофеен</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="4113aab5-ea30-40e9-8263-807497c39b24">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="547dfbd7-ff6e-4f28-aff2-31ce33fed480">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="54ec5258-5d42-4199-a5c6-1de3166c2df2">
+    <name>ТорговаяТочка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Торговая точка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЗаведенияСети</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="85fcad85-dd8c-4d0d-90c2-ee2f0fef156d">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РаботникиКафе</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="b1773196-4ae9-4345-81a4-447edf59a689">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КофеИНапитки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="9abb8bca-17f3-4b7c-bbbf-42ba0d9f9c1f">
+    <name>МетодОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод оплаты</value>
+    </synonym>
+    <type>
+      <types>EnumRef.МетодыОплаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="e4716f46-7eeb-40a8-8c6d-4e20aa1c7b30">
+    <name>ДатаПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата продажи</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
