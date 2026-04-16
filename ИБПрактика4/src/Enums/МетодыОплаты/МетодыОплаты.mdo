@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11a9ef1b-49f8-492b-9021-8699f75ddcbf">
+  <producedTypes>
+    <refType typeId="116af897-4d3c-4424-8b4c-c6292be747f9" valueTypeId="4ddfb7e9-832e-426b-9e18-c5098b10c1b1"/>
+    <listType typeId="05f070d9-7f16-4056-9ba6-2090cb3237da" valueTypeId="ec805e52-bafe-4e76-8241-cea2928fe5dc"/>
+    <managerType typeId="01ca2a23-0f20-4462-bebc-783b76f60c29" valueTypeId="c312aa3f-109f-473b-93e2-ed20ea6efc99"/>
+  </producedTypes>
+  <name>МетодыОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методы оплаты</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="51f21461-ba95-42d5-a7b3-da6e1ee459d6">
+    <name>Наличные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fece8304-6e40-44af-a55a-96497f4d7eec">
+    <name>БанковскаяКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банковская карта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="45f96ef9-e423-40bb-9234-ef1e3885b03f">
+    <name>QRКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>QRКод</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

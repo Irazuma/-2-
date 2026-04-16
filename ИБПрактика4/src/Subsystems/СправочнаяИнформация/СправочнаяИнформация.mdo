@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc69cec0-54f8-48c0-ab35-a9921dc021b6">
+  <name>СправочнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочная информация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.КофеИНапитки</content>
+  <content>Catalog.ЗаведенияСети</content>
+  <content>Catalog.РаботникиКафе</content>
+  <content>Catalog.Поставщики</content>
+  <content>Catalog.ЕдиницыИзмерения</content>
+  <content>ChartOfCharacteristicTypes.КатегорииНоменклатуры</content>
+  <content>ChartOfCharacteristicTypes.ТипыТорговыхТочек</content>
+  <content>ChartOfCharacteristicTypes.ДолжностиСотрудников</content>
+  <content>ChartOfCharacteristicTypes.ГрафикРаботы</content>
+</mdclass:Subsystem>

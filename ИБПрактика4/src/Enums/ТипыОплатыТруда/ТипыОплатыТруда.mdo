@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54bce8c9-2589-4e6d-a08f-9216e54d9bd4">
+  <producedTypes>
+    <refType typeId="d23bfc96-4750-4d0a-a094-f9eb834ce83b" valueTypeId="eee52d80-07fe-43de-8977-b8c1714258da"/>
+    <listType typeId="c06e3f8d-9cbf-4de8-bda1-9ccfd6d2cd77" valueTypeId="358fd55f-9cfb-4a5c-bfa2-5c5efdedacba"/>
+    <managerType typeId="73f8fe77-c1e4-48f5-b6fc-b194faf1e258" valueTypeId="8f66580c-b0ef-403e-a0a8-15334e1591a0"/>
+  </producedTypes>
+  <name>ТипыОплатыТруда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы оплаты труда</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3a38e323-79f4-406e-94cc-3740dcce96b7">
+    <name>Почасовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почасовая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="42bf50c8-d3af-429b-9923-cebef791ca7c">
+    <name>Фиксированная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фиксированная</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
